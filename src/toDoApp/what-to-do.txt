@@ -1,0 +1,13 @@
+primary
+-- mount react.router
+-- add remember 
+
+
+secondary 
+-- centre task to do
+-- finish till add
+-- add warning to delete button
+-- fix background hight problem
+-- sort task to do by finish date
+-- sort done tasks
+-- 

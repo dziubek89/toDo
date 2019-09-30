@@ -1,0 +1,24 @@
+.doneContainer {
+  float: left;
+  width: 100%;
+  display: inline-block;
+}
+
+.taskDone {
+  margin: 0 auto;
+  background-color: rgb(61, 61, 61);
+  border-radius: 25px;
+  color: rgb(31, 30, 30);
+  display: inline-block;
+  width: 80%;
+}
+.taskDone:hover {
+  background-color: rgb(87, 87, 87);
+}
+
+.doneContainer button {
+  margin-left: 5px;
+}
+.input-group mb-3 {
+  width: 100%;
+}

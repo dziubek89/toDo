@@ -1,0 +1,95 @@
+.container {
+  min-width: 100%;
+  text-align: center;
+  background-color: rgb(109, 61, 15);
+  min-height: 100%;
+}
+
+.textInput {
+  /* margin-right: 100px; */
+  height: 50px;
+  width: 40%;
+  font-size: 16px;
+}
+.add-task-group div {
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.low {
+  margin: 0;
+  /* float: left; */
+  display: inline-block;
+  background-color: green;
+  margin-left: 10px;
+  width: 120px;
+  height: 40px;
+  font-weight: bold;
+  color: black;
+  border-radius: 25px;
+  padding-top: 2px;
+  font-size: 20px;
+}
+.medium {
+  margin: 0;
+  display: inline-block;
+  /* float: left; */
+  background-color: yellow;
+  margin-left: 10px;
+  width: 120px;
+  height: 40px;
+  font-weight: bold;
+  color: black;
+  border-radius: 25px;
+  padding-top: 2px;
+  font-size: 20px;
+}
+.important {
+  margin: 0;
+  display: inline-block;
+  /* float: left; */
+  background-color: red;
+  margin-left: 10px;
+  width: 120px;
+  height: 40px;
+  font-weight: bold;
+  color: black;
+  border-radius: 25px;
+  padding-top: 2px;
+  font-size: 20px;
+}
+
+.inp-div {
+  position: relative;
+  margin-left: 10px;
+  top: 8px;
+}
+.inputStyle {
+  cursor: pointer;
+}
+.div-style {
+  font-weight: bold;
+  position: relative;
+  top: 2px;
+}
+.date-inp {
+  margin-bottom: 10px;
+  border-radius: 25px;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+  border: 2px solid rgb(124, 3, 245);
+}
+.btn-add-new-task {
+  width: 50%;
+  height: 30px;
+  border-radius: 5px;
+  background-color: rgb(50, 149, 50);
+  border: 2px solid green;
+}
+.btn-add-new-task:hover {
+  background-color: green;
+}
+.doneSection {
+  width: 100%;
+}
