@@ -1,0 +1,27 @@
+.about-container div {
+  margin: 0px 10px 10px 10px;
+}
+.about-div1-container {
+}
+.about-div2-container {
+}
+.about-container p {
+  text-align: center;
+  font-size: 3vmin;
+  /* font-size: 20px; */
+}
+
+.img1 {
+  width: 40%;
+  max-width: 300px;
+  float: left;
+  border-radius: 100px;
+  margin: 30px 20px 0 30px;
+}
+.img2 {
+  width: 40%;
+  max-width: 300px;
+  float: right;
+  border-radius: 100px;
+  margin: 30px 30px 0 20px;
+}

@@ -7,13 +7,12 @@ const Navigation = () => {
     <div className="nav-sidebar">
       <ul>
         <li>
-          <NavLink to="/">news</NavLink>
+          <NavLink exact={true} to="/">
+            About Me
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/about">About Me</NavLink>
-        </li>
-        <li>
-          <NavLink to="/toDoApp">To-Do-App</NavLink>
+          <NavLink to="/toDoApp">ToDo App</NavLink>
         </li>
         <li>
           <NavLink to="/next">Next App</NavLink>

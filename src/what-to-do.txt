@@ -1,6 +1,7 @@
 primary
--- mount react.router
--- add remember 
+- -add switch router in header to avoid wrond url
+-- add remember  session
+-- make new app
 
 
 secondary 

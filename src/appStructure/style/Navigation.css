@@ -1,0 +1,35 @@
+.nav-sidebar ul {
+  list-style: none;
+}
+.nav-sidebar li {
+  padding-top: 20px;
+}
+.nav-sidebar li a {
+  display: block;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  color: rgb(24, 24, 24);
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.nav-sidebar li a:hover {
+  transform: translateX(20px);
+}
+.nav-sidebar li a.active {
+  color: blue;
+}
+.nav-sidebar li:nth-child(1) a.active {
+  border-left: 8px solid rgb(3, 155, 3);
+  color: rgb(3, 155, 3);
+}
+.nav-sidebar li:nth-child(2) a.active {
+  border-left: 8px solid rgb(35, 2, 124);
+  color: rgb(35, 2, 124);
+}
+.nav-sidebar li:nth-child(3) a.active {
+  border-left: 8px solid rgb(117, 2, 2);
+  color: rgb(117, 2, 2);
+}

@@ -53,26 +53,26 @@ class ToDoApp extends Component {
   // submit button create object and add it to array
   validate = e => {
     e.preventDefault();
-    // if (this.state.task.length === 0 || this.state.acctualDate.length === 0) {
-    //   alert("You have to fill task and date field");
-    // } else {
-    let tasks = this.state.tasks;
-    const task = {
-      id: this.counter,
-      body: this.state.task,
-      priority: this.state.priority,
-      date: this.state.acctualDate
-    };
-    tasks = tasks.concat(task);
-    this.setState({
-      tasks,
-      range: 0,
-      priority: "low",
-      acctualDate: "",
-      task: ""
-    });
-    this.counter++;
-    // }
+    if (this.state.task.length === 0 || this.state.acctualDate.length === 0) {
+      alert("You have to fill task and date field");
+    } else {
+      let tasks = this.state.tasks;
+      const task = {
+        id: this.counter,
+        body: this.state.task,
+        priority: this.state.priority,
+        date: this.state.acctualDate
+      };
+      tasks = tasks.concat(task);
+      this.setState({
+        tasks,
+        range: 0,
+        priority: "low",
+        acctualDate: "",
+        task: ""
+      });
+      this.counter++;
+    }
   };
   //deleting task button
   deleteButton = e => {
