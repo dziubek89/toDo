@@ -2,7 +2,7 @@ import React from "react";
 
 const AddTask = props => {
   return (
-    <div className="c">
+    <div>
       <form noValidate onSubmit={props.validate}>
         <h1>ToDo App by Dziubas</h1>
         <div className="input-group">
@@ -10,18 +10,17 @@ const AddTask = props => {
             <span className="input-group-text">New Task</span>
           </div>
           <textarea
+            className="form-control"
             name="task"
             id="textInput"
-            className="textInput"
             value={props.task}
             onChange={props.inputHandler}
-            className="form-control"
             aria-label="With textarea"
           ></textarea>
         </div>
         <br />
         <div className="add-task-group">
-          <div className="div-style">Priority</div>
+          <div>Priority</div>
           <div className="inp-div">
             <input
               className="inputStyle"
