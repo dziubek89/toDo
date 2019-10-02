@@ -1,0 +1,53 @@
+section.board {
+  min-height: 40vh;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  /* position: absolute; */
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  max-width: 700px;
+  /* overflow: hidden; */
+  margin: 0 auto;
+}
+
+section.board div {
+  background-color: black;
+  border: 1px solid white;
+  cursor: pointer;
+  color: white;
+  border-radius: 25px;
+  margin: 2px;
+}
+
+section.board div:hover {
+  background-color: rgb(31, 31, 31);
+}
+
+section.board div img {
+  width: 100%;
+  height: 100%;
+}
+
+.hide {
+  filter: opacity(0%);
+}
+.reveal {
+  filter: opacity(100%);
+}
+.disabled {
+  filter: opacity(50%);
+  pointer-events: none;
+}
+
+.game-btn {
+  height: 5vh;
+  width: 80%;
+  border-radius: 25px;
+}
+.but-div {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
