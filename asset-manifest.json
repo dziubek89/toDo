@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/toDo/static/css/main.751116aa.chunk.css",
+    "main.css": "/toDo/static/css/main.b8b381ac.chunk.css",
     "main.js": "/toDo/static/js/main.a703c0af.chunk.js",
     "main.js.map": "/toDo/static/js/main.a703c0af.chunk.js.map",
     "runtime-main.js": "/toDo/static/js/runtime-main.9d3b336f.js",
@@ -9,10 +9,10 @@
     "static/js/2.a987f41f.chunk.js": "/toDo/static/js/2.a987f41f.chunk.js",
     "static/js/2.a987f41f.chunk.js.map": "/toDo/static/js/2.a987f41f.chunk.js.map",
     "index.html": "/toDo/index.html",
-    "precache-manifest.ef385000041a032428aefc78c1617847.js": "/toDo/precache-manifest.ef385000041a032428aefc78c1617847.js",
+    "precache-manifest.7cc97f88d49f09f5260f762a8159d25b.js": "/toDo/precache-manifest.7cc97f88d49f09f5260f762a8159d25b.js",
     "service-worker.js": "/toDo/service-worker.js",
     "static/css/2.0624914a.chunk.css.map": "/toDo/static/css/2.0624914a.chunk.css.map",
-    "static/css/main.751116aa.chunk.css.map": "/toDo/static/css/main.751116aa.chunk.css.map",
+    "static/css/main.b8b381ac.chunk.css.map": "/toDo/static/css/main.b8b381ac.chunk.css.map",
     "static/media/KrzysztofDziubanski.jpg": "/toDo/static/media/KrzysztofDziubanski.68432f31.jpg",
     "static/media/KrzysztofDziubanskiKite.jpg": "/toDo/static/media/KrzysztofDziubanskiKite.e89a9aaa.jpg",
     "static/media/img3.png": "/toDo/static/media/img3.fffff2d2.png",
